@@ -1,0 +1,18 @@
+.float-container-mentor {
+
+    display: flex;
+    justify-content:space-between;
+    padding: 6rem;
+
+  }
+  .float-container-mentor .card
+  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .float-container-mentor .card img 
+  {
+      max-width: 60%;
+  }
