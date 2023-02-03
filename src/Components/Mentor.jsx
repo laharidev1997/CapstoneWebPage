@@ -1,37 +1,66 @@
 import React from 'react'
-import '../App.css'
+import Paper from "@material-ui/core/Paper";
+import Grid from "@material-ui/core/Grid";
+import { makeStyles } from "@material-ui/core/styles";
 import './mentor.css'
+const useStyles = makeStyles(theme => ({
+    root: {
+      flexGrow: 1
+    },
+    paper: {
+      padding: theme.spacing(2),
+      textAlign: "center",
+      color: theme.palette.text.secondary
+    }
+  }));
 const Mentor = () => {
+    const classes = useStyles();
     return (
         <div className='container mt-3-custom'>
             <h1>Mentors</h1>
-                    <div className="float-container-mentor">
-                        <div className="card col-lg-4 col-md-2 col-12">
-                            <img src="/profile.png" className="card-img-top" alt="profile"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-                        <div className="card col-lg-4 col-md-2 col-12">
-                            <img src="/profile.png" className="card-img-top" alt="profile"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-                        <div className="card col-lg-4 col-md-2 col-12">
-                            <img src="/profile.png" className="card-img-top" alt="profile"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-
-                    </div>
+                    
+    <Grid container spacing={2}>
+        <Grid item xs={3}>
+          <Paper className={classes.paper}>
+            <img src = "/profile.png" alt=""></img>
+            <h4>Lahari Devaraju</h4>
+            <h6>Student at UHCL</h6>
+            <h6>2817398685</h6>
+            <h6>devarajul5285@uhcl.edu</h6>
+            <h6>oFFICE</h6>
+          </Paper>
+        </Grid>
+        <Grid item xs={3}>
+          <Paper className={classes.paper}>
+            <img src = "/profile.png" alt=""></img>
+            <h4>Lahari Devaraju</h4>
+            <h6>Student at UHCL</h6>
+            <h6>2817398685</h6>
+            <h6>devarajul5285@uhcl.edu</h6>
+            <h6>oFFICE</h6>
+          </Paper>
+        </Grid>
+        <Grid item xs={3}>
+          <Paper className={classes.paper}>
+            <img src = "/profile.png" alt=""></img>
+            <h4>Lahari Devaraju</h4>
+            <h6>Student at UHCL</h6>
+            <h6>2817398685</h6>
+            <h6>devarajul5285@uhcl.edu</h6>
+            <h6>oFFICE</h6>
+          </Paper>
+        </Grid>
+        <Grid item xs={3}>
+          <Paper className={classes.paper}>
+            <img src = "/profile.png" alt=""></img>
+            <h4>Lahari Devaraju</h4>
+            <h6>Student at UHCL</h6>
+            <h6>2817398685</h6>
+            <h6>devarajul5285@uhcl.edu</h6>
+            <h6>oFFICE</h6>
+          </Paper>
+        </Grid>
+      </Grid>
         </div>
     )
 }

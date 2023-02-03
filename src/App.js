@@ -6,7 +6,10 @@ import Header from './Components/Header';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Mentor from './Components/Mentor';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Team from './Components/Team';
+import Meetings from './Components/Meetings'
+import WeeklyReports from './Components/WeeklyReports'
+import {Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
@@ -14,9 +17,9 @@ function App() {
       <Routes>
         <Route path="/" exact element = {<Home />} />
         <Route path="/mentor" element = {<Mentor />} />
-        {/* <Route path = "/register" element = {<Register />} />
-        <Route path = "/edit/:id" element = {<Edit />} />
-        <Route path = "/detail/:id" element = {<Detail />} /> */}
+        <Route path="/team" element = {<Team />} />
+        <Route path="/meetings" element = {<Meetings />} />
+        <Route path="/weekly" element = {<WeeklyReports />} />
       </Routes>
       <Footer />
     </div>

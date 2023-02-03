@@ -5,6 +5,11 @@
     padding: 6rem;
 
   }
+  .mt-3-custom
+{
+  margin-top: 6rem!important;
+  margin-bottom: 10rem;
+}
   .float-container-mentor .card
   {
       display: flex;
@@ -12,7 +17,7 @@
       justify-content: center;
       align-items: center;
   }
-  .float-container-mentor .card img 
+  img
   {
-      max-width: 60%;
+    width: 50%; 
   }

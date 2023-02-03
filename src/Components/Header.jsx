@@ -17,19 +17,16 @@ const Header = () => {
                 <NavLink to="/mentor" className="nav-link active">Mentor</NavLink>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <NavLink to="/team" className="nav-link active">Team</NavLink>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Meetings</a>
+                <NavLink to="/meetings" className="nav-link active">Meetings</NavLink>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Deliverables</a>
+                <NavLink to="/weekly" className="nav-link active">Weekly Reports</NavLink>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Weekly Reports</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">References</a>
+                <NavLink to="/references" className="nav-link active">References</NavLink>
             </li>
         </ul>
     </div>
