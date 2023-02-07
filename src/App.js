@@ -16,10 +16,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" exact element = {<Home />} />
-        <Route path="/mentor" element = {<Mentor />} />
-        <Route path="/team" element = {<Team />} />
-        <Route path="/meetings" element = {<Meetings />} />
-        <Route path="/weekly" element = {<WeeklyReports />} />
+        <Route path="/mentor" exact element = {<Mentor />} />
+        <Route path="/team" exact element = {<Team />} />
+        <Route path="/meetings" exact element = {<Meetings />} />
+        <Route path="/weekly" exact element = {<WeeklyReports />} />
       </Routes>
       <Footer />
     </div>
