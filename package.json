@@ -1,6 +1,7 @@
 {
   "name": "capstonewebapp",
   "version": "0.1.0",
+  "homepage": "/caps23g43",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
