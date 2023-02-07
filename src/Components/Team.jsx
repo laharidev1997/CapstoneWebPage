@@ -10,84 +10,96 @@ const useStyles = makeStyles(theme => ({
     },
     paper: {
       padding: theme.spacing(2),
-      textAlign: "center",
-      color: theme.palette.text.secondary
+    //   textAlign: "center",
+      color: theme.palette.text.secondary,
+      display: 'flex',
+      padding: "16px",
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center'
     }
   }));
 const Team = () => {
     const classes = useStyles();
     return (
         <div className='container mt-3-custom'>
-            <h1>Mentors</h1>
+            <h1>Meet Our Team</h1>
             <Grid container spacing={2}>
                 <Grid item xs={3}>
                 <Paper className={classes.paper}>
-                    <img src = "/profile.png" alt=""></img>
+                    <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
+                        <img src = "/lahari.jpeg" style={{ width: '100%', marginTop: '-40px' }} alt="lahari"></img>
+                    </div>
                     <h4>Lahari Devaraju</h4>
-                    <h6>Student at UHCL</h6>
-                    <h6>2817398685</h6>
+                    <h6>CS Graduate Student at UHCL</h6>
+                    <h6>+1 281 739 8685</h6>
                     <h6>devarajul5285@uhcl.edu</h6>
-                    <h6>oFFICE</h6>
                 </Paper>
                 </Grid>
                 <Grid item xs={3}>
                 <Paper className={classes.paper}>
-                    <img src = "/profile.png" alt=""></img>
-                    <h4>Lahari Devaraju</h4>
-                    <h6>Student at UHCL</h6>
-                    <h6>2817398685</h6>
-                    <h6>devarajul5285@uhcl.edu</h6>
-                    <h6>oFFICE</h6>
+                <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
+                        <img src = "/satvik.jpeg" style={{ width: '100%', marginTop: '-10px' }} alt="satvik"></img>
+                </div>
+                    <h4>Sathvik Chandra N</h4>
+                    <h6>CIS Graduate Student at UHCL</h6>
+                    <h6>+1 346 433 2694</h6>
+                    <h6>neradugommus9125@uhcl.edu</h6>
                 </Paper>
                 </Grid>
                 <Grid item xs={3}>
                 <Paper className={classes.paper}>
-                    <img src = "/profile.png" alt=""></img>
-                    <h4>Lahari Devaraju</h4>
-                    <h6>Student at UHCL</h6>
-                    <h6>2817398685</h6>
-                    <h6>devarajul5285@uhcl.edu</h6>
-                    <h6>oFFICE</h6>
+                <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
+                        <img src = "/vineeth.jpeg" style={{ width: '100%', marginTop: '-60px' }} alt="satvik"></img>
+                </div>
+                    <h4>Saivineeth Reddy P</h4>
+                    <h6>CS Graduate Student at UHCL</h6>
+                    <h6>+1 346 434 8857</h6>
+                    <h6>peddaveetis6408@uhcl.edu</h6>
                 </Paper>
                 </Grid>
                 <Grid item xs={3}>
                 <Paper className={classes.paper}>
-                    <img src = "/profile.png" alt=""></img>
-                    <h4>Lahari Devaraju</h4>
-                    <h6>Student at UHCL</h6>
-                    <h6>2817398685</h6>
-                    <h6>devarajul5285@uhcl.edu</h6>
-                    <h6>oFFICE</h6>
+                <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
+                        <img src = "/venkat.jpeg" style={{ width: '100%', marginTop: '-40px' }} alt="satvik"></img>
+                </div>
+                    <h4>Venkat Ramana Reddy E</h4>
+                    <h6>CS Graduate Student at UHCL</h6>
+                    <h6>+1 346 646 9060</h6>
+                    <h6>enukondav5629@uhcl.edu</h6>
                 </Paper>
                 </Grid>
                 <Grid item xs={4}>
                 <Paper className={classes.paper}>
-                    <img src = "/profile.png" alt=""></img>
-                    <h4>Lahari Devaraju</h4>
-                    <h6>Student at UHCL</h6>
-                    <h6>2817398685</h6>
-                    <h6>devarajul5285@uhcl.edu</h6>
-                    <h6>oFFICE</h6>
+                <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
+                        <img src = "/nitin.jpeg" style={{ width: '100%', marginTop: '-40px' }} alt="satvik"></img>
+                </div>
+                    <h4>Nithin Reddy Seelam</h4>
+                    <h6>CS Graduate Student at UHCL</h6>
+                    <h6>+1 346 427 8642</h6>
+                    <h6>seelamn4298@uhcl.edu</h6>
                 </Paper>
                 </Grid>
                 <Grid item xs={4}>
                 <Paper className={classes.paper}>
-                    <img src = "/profile.png" alt=""></img>
-                    <h4>Lahari Devaraju</h4>
-                    <h6>Student at UHCL</h6>
-                    <h6>2817398685</h6>
-                    <h6>devarajul5285@uhcl.edu</h6>
-                    <h6>oFFICE</h6>
+                <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
+                        <img src = "/sai.jpeg" style={{ width: '100%', marginTop: '-5pxpx' }} alt="satvik"></img>
+                </div>
+                    <h4>Sai Prasad Varma Sangaraju</h4>
+                    <h6>CS Graduate Student at UHCL</h6>
+                    <h6>+1 281 965 9785</h6>
+                    <h6>sangarajus9030@uhcl.edu</h6>
                 </Paper>
                 </Grid>
                 <Grid item xs={4}>
                 <Paper className={classes.paper}>
-                    <img src = "/profile.png" alt=""></img>
-                    <h4>Lahari Devaraju</h4>
-                    <h6>Student at UHCL</h6>
-                    <h6>2817398685</h6>
-                    <h6>devarajul5285@uhcl.edu</h6>
-                    <h6>oFFICE</h6>
+                    <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
+                            <img src = "/dhatri.jpeg" style={{ width: '100%', marginTop: '-5pxpx' }} alt="satvik"></img>
+                    </div>
+                    <h4>Dhatri Naidu Bhogadi</h4>
+                    <h6>CIS Graduate Student at UHCL</h6>
+                    <h6>+1 281 965 5461</h6>
+                    <h6>bhogadid9671@uhcl.edu</h6>
                 </Paper>
                 </Grid>
             </Grid>
