@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from "../res/profile.png"
 import '../App.css'
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
                     </div> */}
                     <div class="float-container h-100">
                         <div class="float-child" style={{ width: '40%', padding: '0px' }}>
-                            <img src = "/profile.png" style={{ width: '100%' }}  alt="profile"></img>
+                            <img src = {profile} style={{ width: '100%' }}  alt="profile"></img>
                         </div>
 
                         <div class="float-child" style={{ width: '60%' }}>

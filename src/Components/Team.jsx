@@ -26,13 +26,99 @@ const useStyles = makeStyles(theme => ({
       alignItems: 'center'
     }
   }));
+  const data = [
+    {
+        "colSize":3,
+        "img": require('../res/lahari.jpeg'),
+        "name": "Lahari Devaraju",
+        "designation": "CS Graduate Student at UHCL",
+        "phone": "+1 281 739 8685",
+        "email": "devarajul5285@uhcl.edu",
+    },
+    {
+        "colSize":3,
+        "img": require('../res/Satvik.jpeg'),
+        "name": "Sathvik Chandra N",
+        "designation": "CIS Graduate Student at UHCL",
+        "phone": "+1 281 739 8685",
+        "email": "neradugommus9125@uhcl.edu",
+    },
+    {
+        "colSize":3,
+        "img": require('../res/vineeth.jpeg'),
+        "name": "Saivineeth Reddy P",
+        "designation": "CS Graduate Student at UHCL",
+        "phone": "+1 346 434 8857",
+        "email": "peddaveetis6408@uhcl.edu",
+    },
+    {
+        "colSize":3,
+        "img": require('../res/venkat.jpeg'),
+        "name": "Venkat Ramana Reddy E",
+        "designation": "CS Graduate Student at UHCL",
+        "phone": "+1 346 646 9060",
+        "email": "nukondav5629@uhcl.edu",
+    },
+    {
+        "colSize":4,
+        "img": require('../res/nitin.jpeg'),
+        "name": "Nithin Reddy Seelam",
+        "designation": "CS Graduate Student at UHCL",
+        "phone": "+1 346 427 8642",
+        "email": "eelamn4298@uhcl.edu",
+    },
+    {
+        "colSize":4,
+        "img": require('../res/sai.jpeg'),
+        "name": "Sai Prasad Varma Sangaraju",
+        "designation": "CS Graduate Student at UHCL",
+        "phone": "+1 281 965 9785",
+        "email": "sangarajus9030@uhcl.edu",
+    },
+    {
+        "colSize":4,
+        "img": require('../res/dhatri.jpeg'),
+        "name": "Dhatri Naidu Bhogadi",
+        "designation": "CIS Graduate Student at UHCL",
+        "phone": "+1 281 965 5461",
+        "email": "bhogadid9671@uhcl.edu",
+    }
+  ]
 const Team = () => {
     
     const classes = useStyles();
     return (
         <div className='container mt-3-custom'>
             <h1>Meet Our Team</h1>
-            <Grid container spacing={2}>
+            <div className='clearfix'>
+              <div className="row">
+                {data.map((i,key) => {
+                  return(
+                    <div className={`col-md-${i.colSize} animated fadeIn`}>
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="avatar">
+                        <img
+                          src={i.img}
+                          className="card-img-top"
+                          alt=""
+                        />
+                      </div>
+                      <div className='paper'>
+                        <h5>{i.name}</h5>
+                        <h6>{i.designation}</h6>
+                        <h6>{i.phone}</h6>
+                        <h6>{i.email}</h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  )   
+                })}
+              </div>
+            </div>
+            {/* <Grid container spacing={2}>
                 <Grid item xs={3}>
                 <Paper className={classes.paper}>
                     <div style={{ borderRadius: '50%', overflow: 'hidden', height: '200px', width: '200px' }}>
@@ -110,7 +196,7 @@ const Team = () => {
                     <h6>bhogadid9671@uhcl.edu</h6>
                 </Paper>
                 </Grid>
-            </Grid>
+            </Grid> */}
         </div>
     )
 }
