@@ -15,6 +15,44 @@ html{
     right: 0;
   
 }
+.container-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+.homepage
+{
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+}
+.homepage div
+{
+  width: 50%;
+}
+
 .footer
 {
   position: fixed;
