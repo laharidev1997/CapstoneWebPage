@@ -1,8 +1,4 @@
 import React from 'react'
-import meeting1 from '../Documents/MinutesOftheMeeting1.pdf'
-import wr1 from '../Documents/WeeklyReport\ 1.docx'
-import wr2 from '../Documents/WeeklyReport2.pdf'
-import wr3 from '../Documents/Weeklyreport3.pdf'
 import "../App.css"
 
 const Meetings = () => {
@@ -19,37 +15,6 @@ const Meetings = () => {
                     </li>
                 </ol>
             </div>
-            <div>
-                <h4>Minutes of the Meeting</h4>
-                <ol>
-                    <li>
-                        <a href = {meeting1}>Minutes of the meeting - February 6th, 2023</a>
-                    </li>
-                    {/* <li>
-                        <a href = "https://urldefense.com/v3/__https://teams.microsoft.com/l/meetup-join/19*3ameeting_ZTk1MTYyMmQtZWM0Zi00MWEyLWIwNzAtY2MwZjEyYTU3MzE3*40thread.v2/0?context=*7b*22Tid*22*3a*221df5ebaa-5ee1-490a-af54-ce6769b72276*22*2c*22Oid*22*3a*2240b6ebea-3609-44ee-a7c6-db3f18e0fed4*22*7d__;JSUlJSUlJSUlJSUlJSUl!!BCR0FSePrR4x!FtyIJxyuf3GUQRR7Pjufw8NioQNKtjwxaXPAQ3PzfUpBRqs1vxTfRcdRaABqxqjg-HAt8i7BJgIWxdUTEXbyVt1BESM$">Teams Meeting Link for Thursday - 8 AM</a>
-                    </li> */}
-
-                </ol>
-            </div>
-            <div>
-                <h4>Weekly Reports</h4>
-                <ol>
-                    <li>
-                        <a href = {wr1}>Weekly Report 1</a>
-                    </li>
-                    <li>
-                        <a href = {wr2}>Weekly Report 2</a>
-                    </li>
-                    <li>
-                        <a href = {wr3}>Weekly Report 3</a>
-                    </li>
-                    {/* <li>
-                        <a href = "https://urldefense.com/v3/__https://teams.microsoft.com/l/meetup-join/19*3ameeting_ZTk1MTYyMmQtZWM0Zi00MWEyLWIwNzAtY2MwZjEyYTU3MzE3*40thread.v2/0?context=*7b*22Tid*22*3a*221df5ebaa-5ee1-490a-af54-ce6769b72276*22*2c*22Oid*22*3a*2240b6ebea-3609-44ee-a7c6-db3f18e0fed4*22*7d__;JSUlJSUlJSUlJSUlJSUl!!BCR0FSePrR4x!FtyIJxyuf3GUQRR7Pjufw8NioQNKtjwxaXPAQ3PzfUpBRqs1vxTfRcdRaABqxqjg-HAt8i7BJgIWxdUTEXbyVt1BESM$">Teams Meeting Link for Thursday - 8 AM</a>
-                    </li> */}
-
-                </ol>
-            </div>
-            
             
         </div>
     )

@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
     return (
         <nav class="navbar navbar-dark bg-dark navbar-expand-md bg-faded justify-content-center">
             <a href="/" class="navbar-brand d-flex w-50 mr-auto">Aventur Travel</a>
