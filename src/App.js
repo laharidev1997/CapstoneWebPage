@@ -9,6 +9,7 @@ import Mentor from './Components/Mentor';
 import Team from './Components/Team';
 import Meetings from './Components/Meetings'
 import WeeklyReports from './Components/WeeklyReports'
+import References from './Components/References';
 import {Routes, Route} from 'react-router-dom'
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/team" exact element = {<Team />} />
         <Route path="/meetings" exact element = {<Meetings />} />
         <Route path="/weekly" exact element = {<WeeklyReports />} />
+        <Route path="/references" exact element = {<References />} />
       </Routes>
       <Footer />
     </div>

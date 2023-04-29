@@ -7,11 +7,7 @@ const Home = () => {
             <div className="container-body">
                 <div className="content">
                     <h2>Project Details</h2>
-                    <p>“Travelling is fun and adventurous when you travel in groups, but what if you’re lost   somewhere, in that adventure?”
-We have many online and offline travel agencies who can provide services such as accommodations, tours, and transportation services accessible to the customers through various packages. Nevertheless, they don’t provide some of the features that our application can furnish.
-AVENTUR is a travel assistance application where travelers can manage their group trips online through digital travel assistance. With this application travelers can create groups, plan a trip, create checklists, schedule events to gather group members, share location to group members and track member’s location individually. This application offers a feature called a guidebook, which not only manifests the tourist place, but also includes additional notes and tips in the application relevant to the place. Moreover, travelers can use the location button which will redirect them to google maps and maps applications for routes to reach a destination.
-The application includes an emergency button when clicked, sends a notification to their group members that the person is in need of help. There are more features coming soon such as walkie-talkie feature, weather report and in-app camera.
-The application will be available in web and mobile versions and is compatible to both iOS and Android platforms.</p>
+                    <p>AVENTUR is a travel assistance application that aims to streamline group trip management for travelers. The project team is currently undertaking a revamp of the existing dashboard based on new Figma designs, in addition to adding new features to enhance the application's functionality. The team is also prioritizing API security, identifying, and fixing bugs, and maintaining test scripts to ensure the application's reliability. To facilitate project management, the team is utilizing the sprint and JIRA methodology, with each sprint lasting a week. Furthermore, the project team is also engaged in business development efforts to expand the application's user base of the mobile application.</p>
                 </div>
                 <div className="image">
                 <img src = {Aventur} alt = ""/>
